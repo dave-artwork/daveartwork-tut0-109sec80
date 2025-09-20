@@ -9,6 +9,13 @@
 background-color: aqua;
 width: 200px;
 height: 200px;
+border-radius: 20px;
 }
 
+.button{
+    color: blue;
+    background-color: aquamarine;
+    padding: 15px;
+
+}
 
