@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="../lib/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+  <style>
+    body {
+      padding: 50px;
+      margin: 50px;
+      background-color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    
+    .title-box {
+      background-color: #ddd;
+      border: 2px solid #89d7e2;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .title {
+      color: #222;
+      font-size: 50px;
+      margin: 0;
+    }
+
+    
+    .text-box {
+      background-color: #000;
+      border: 2px solid #89d7e2;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .body-text {
+      color: #eee;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+    }
+     html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .image-container {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .lake-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+     .overlay-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      max-width: 600px;
+     }
+      .link-images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 60px auto;
+      flex-wrap: wrap;
+      max-width: 1000px;
+    }
+
+    .image-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 150px;
+    }
+
+    .linked-image {
+      width: 100%;
+      height: auto;
+      border: 2px solid #89d7e2;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .linked-image:hover {
+      transform: scale(1.05);
+    }
+
+    .image-caption {
+      margin-top: 10px;
+      color: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-container">
+    <img src="images/lake1.jpg" alt="Lake Cunningham" class="lake-image">
+
+   
+    <div class="overlay-content">
+      <div class="title-box">
+        <h1 class="title">The Lake of Time</h1>
+      </div>
+
+      <div class="text-box">
+        <p class="body-text">
+          (<strong>Lake Cunningham over the years</strong>) An interactive archive.  
+          Hello traveler and welcome to the archive of this now polluted lake. Where shall you go? (current year 2025)
+        </p>
+      </div>
+      </div>
+  </div>
+  <div class="link-images">
+    <div class="image-card">
+      <a href="page1.html">
+        <img src="images/door1.png" alt="Link to Page 1" class="linked-image">
+      </a>
+      <div class="image-caption">past</div>
+    </div>
+
+    <div class="image-card">
+      <a href="page2.html">
+        <img src="images/door1.png" alt="Link to Page 2" class="linked-image">
+      </a>
+      <div class="image-caption">present</div>
+    </div>
+
+    <div class="image-card">
+      <a href="page3.html">
+        <img src="images/door1.png" alt="Link to Page 3" class="linked-image">
+      </a>
+      <div class="image-caption">future</div>
+    </div>
+  </div>
+</body>
+     
+    
