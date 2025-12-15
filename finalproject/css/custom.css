@@ -1,0 +1,96 @@
+body {
+
+color:rgb(63, 229, 80);
+background-color: rgb(236, 62, 62);
+font-size: 24px;
+}
+
+.widecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #de3434;
+}
+a:hover {
+    text-decoration: none;
+    color: #de3434;
+}
+a:active {
+    text-decoration: none;
+    color: #BB772D;
+}
+
+td, th {
+    color: #A0522D;
+}
+
+
+
+.nav_pad{
+  padding-top:40px;
+}
+.section{
+  padding-top: 30px;
+  padding-bottom:40px;
+
+}
+
+.mid-section{
+  padding-top: 120px;
+  padding-bottom:40px;
+
+}
+
+.key {
+  font-weight:bold;
+
+
+}
+.stripe {
+ background-color: #DADADA;
+}
+
+
+ul.disc{
+  list-style: disc;
+  margin-left: 15px
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:10px;
+}
+
+
+.statement_text {
+
+    background-color: #eee;
+    padding: 8px;
+    margin-top: 20px;
+    border: 1px dashed black;
+}
+.button-link {
+  background-color: #04AA6D; /* Green background */
+  border: none;
+  color: white;
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none; /* Removes default link underline */
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+}
